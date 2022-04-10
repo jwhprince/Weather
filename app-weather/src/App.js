@@ -37,11 +37,11 @@ function App() {
       </div>
      <div className="weather-container">
         <div className="top-part">
-          <h1>{placeInfo.farenheit.current}</h1>
+          <h1>{placeInfo.farenheit?.current}</h1>
           <div className="condition-high-low">
              <h1>{placeInfo.condition}</h1>
-             <h1>{placeInfo.farenheit.hight}</h1>
-             <h1>{placeInfo.farenheit.low}</h1>
+             <h1>{placeInfo.farenheit?.hight}</h1>
+             <h1>{placeInfo.farenheit?.low}</h1>
           </div>
         </div>
         <h2>{placeInfo.name}, {placeInfo.country}</h2>
